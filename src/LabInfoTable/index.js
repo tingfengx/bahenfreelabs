@@ -80,11 +80,11 @@ export default function LabInfoTable(props) {
                             <TableCell component="th" scope="row">
                                 {row.TimeSlot}
                             </TableCell>
-                            <TableCell align="right">{row.monday}</TableCell>
-                            <TableCell align="right">{row.tuesday}</TableCell>
-                            <TableCell align="right">{row.wednesday}</TableCell>
-                            <TableCell align="right">{row.thursday}</TableCell>
-                            <TableCell align="right">{row.friday}</TableCell>
+                            <TableCell align="center">{row.monday}</TableCell>
+                            <TableCell align="center">{row.tuesday}</TableCell>
+                            <TableCell align="center">{row.wednesday}</TableCell>
+                            <TableCell align="center">{row.thursday}</TableCell>
+                            <TableCell align="center">{row.friday}</TableCell>
                         </TableRow>
                     ))}
                 </TableBody>
