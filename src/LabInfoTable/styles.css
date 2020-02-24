@@ -1,3 +1,7 @@
 .MainTable {
     max-width: 720px;
 }
+
+.tbCell {
+    min-width: 35px;
+}

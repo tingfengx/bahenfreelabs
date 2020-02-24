@@ -67,11 +67,11 @@ export default function LabInfoTable(props) {
                 <TableHead>
                     <TableRow>
                         <TableCell>Time Slot</TableCell>
-                        <TableCell align="right">Monday</TableCell>
-                        <TableCell align="right">Tuesday</TableCell>
-                        <TableCell align="right">Wednesday</TableCell>
-                        <TableCell align="right">Thursday</TableCell>
-                        <TableCell align="right">Friday</TableCell>
+                        <TableCell className={"tbCell"} align="center">Monday</TableCell>
+                        <TableCell className={"tbCell"} align="center">Tuesday</TableCell>
+                        <TableCell className={"tbCell"} align="center">Wednesday</TableCell>
+                        <TableCell className={"tbCell"} align="center">Thursday</TableCell>
+                        <TableCell className={"tbCell"} align="center">Friday</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
