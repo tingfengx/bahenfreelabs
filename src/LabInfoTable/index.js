@@ -55,7 +55,8 @@ export default function LabInfoTable(props) {
         const wed = reserver.wednesday;
         const thurs = reserver.thursday;
         const fri = reserver.friday;
-        rows.push(createRow(i, time, mon[time], tues[time], wed[time], thurs[time], fri[time]))
+        rows.push(createRow(i, time, mon[time], tues[time],
+            wed[time], thurs[time], fri[time]))
     }
 
     console.log(rows);
