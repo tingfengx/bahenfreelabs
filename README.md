@@ -1,6 +1,6 @@
 ## bahenfreelabs
 Simple web app that shows lab availibility info at Bahen Centre of Information in the University of Toronto.
-#### check it out at [https://github.io/tingfengx/bahenfreelabs](https://github.io/tingfengx/bahenfreelabs)
+#### check it out at [https://tingfengx.github.io/bahenfreelabs](https://tingfengx.github.io/bahenfreelabs)
 
 
 
