@@ -1,3 +1,18 @@
+## bahenfreelabs
+Simple web app that shows lab availibility info at Bahen Centre of Information in the University of Toronto.
+#### check it out at [https://github.io/tingfengx/bahenfreelabs](https://github.io/tingfengx/bahenfreelabs)
+
+
+
+
+
+<br/>
+<br/>
+<br/>
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
