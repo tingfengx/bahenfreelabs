@@ -334,11 +334,9 @@ class App extends React.Component {
         }
     };
 
-    componentDidMount() {
-        document.title = "Bahen Free Labs"
-    }
 
     render() {
+        document.title = "Bahen Free Labs";
         return (
             <div>
                 <CurAvail BA2200={this.BA2200ReservedBy}
