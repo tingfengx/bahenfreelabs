@@ -5,10 +5,12 @@ import MuiExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import MuiExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import LabInfoTable from "../LabInfoTable";
 import './styles.css';
+import Typography from "@material-ui/core/Typography";
 
 const ExpansionPanel = withStyles({
     root: {
-        border: '2px solid rgba(0, 0, 0, .125)',
+        align: 'center',
+        border: '1px solid rgba(0, 0, 0, .125)',
         boxShadow: 'none',
         '&:not(:last-child)': {
             borderBottom: 0,
@@ -20,7 +22,7 @@ const ExpansionPanel = withStyles({
             margin: 'auto',
         },
     },
-    expanded: {},
+    expanded: {align: 'center',},
 })(MuiExpansionPanel);
 
 const ExpansionPanelSummary = withStyles({
@@ -48,9 +50,9 @@ const ExpansionPanelDetails = withStyles(theme => ({
 }))(MuiExpansionPanelDetails);
 
 export default function LabInfo(props) {
-    const { room, reserver } = props;
+    const {room, reserver} = props;
 
-    const [expanded, setExpanded] = React.useState('panel1');
+    const [expanded, setExpanded] = React.useState('BA2200');
 
     const handleChange = panel => (event, newExpanded) => {
         setExpanded(newExpanded ? panel : false);
@@ -58,13 +60,12 @@ export default function LabInfo(props) {
 
     return (
         <div>
-            <ExpansionPanel square
-                            className = {"MainPanel"}
-                            expanded={expanded === 'panel1'}
-                            onChange={handleChange('panel1')}>
+            <ExpansionPanel square={false}
+                            expanded={expanded === room}
+                            onChange={handleChange(room)}>
 
                 <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
-                    <p className={"roomName"}>{ room }</p>
+                    <Typography align={"center"} variant={"h5"}>{room}</Typography>
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails>
                     <LabInfoTable reserver={reserver}/>

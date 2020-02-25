@@ -45,7 +45,6 @@ const timeSlots_ = [
 
 export default function LabInfoTable(props) {
     const {reserver} = props;
-    console.log(reserver);
     const classes = useStyles();
     const rows = [];
     for (let i = 0; i < timeSlots_.length; i++) {
@@ -58,8 +57,6 @@ export default function LabInfoTable(props) {
         rows.push(createRow(i, time, mon[time], tues[time],
             wed[time], thurs[time], fri[time]))
     }
-
-    console.log(rows);
 
     return (
         <TableContainer component={Paper} className={"MainTable"}>

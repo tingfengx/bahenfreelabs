@@ -36,3 +36,15 @@
         transform: rotate(360deg);
     }
 }
+
+.MarkerText {
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+}
+
+.TextHolder {
+    height: 100px;
+    background-color: white;
+    max-width: 720px;
+}
