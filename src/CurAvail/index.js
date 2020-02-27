@@ -58,7 +58,8 @@ const timeSlots_ = [
 // if it is now 8.30, then hour = 8, want to return 0 in this case
 function getHourRange() {
     const hour = new Date().getHours();
-    if (hour <= 22 && hour >= 8){
+    console.log(hour);
+    if (hour < 22 && hour >= 8){
         return timeSlots_[hour - 8];
     } else {
         return 'night';
@@ -77,7 +78,7 @@ export default function CurAvail(props) {
         "BA3200"
     ];
 
-    console.log(getDay(), getHourRange())
+    console.log(getDay(), getHourRange());
     if (getDay() === 'weekend' || getHourRange() === 'night') {
         freeLabs.push("BA2200"); freeLabs.push("BA3175");
         freeLabs.push("BA3185"); freeLabs.push("BA3195");
