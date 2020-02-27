@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bahenfreelabs/static/css/main.21c3a481.chunk.css",
-    "main.js": "/bahenfreelabs/static/js/main.22c2630b.chunk.js",
-    "main.js.map": "/bahenfreelabs/static/js/main.22c2630b.chunk.js.map",
+    "main.js": "/bahenfreelabs/static/js/main.de52980f.chunk.js",
+    "main.js.map": "/bahenfreelabs/static/js/main.de52980f.chunk.js.map",
     "runtime-main.js": "/bahenfreelabs/static/js/runtime-main.5a65570a.js",
     "runtime-main.js.map": "/bahenfreelabs/static/js/runtime-main.5a65570a.js.map",
     "static/js/2.b4de895d.chunk.js": "/bahenfreelabs/static/js/2.b4de895d.chunk.js",
     "static/js/2.b4de895d.chunk.js.map": "/bahenfreelabs/static/js/2.b4de895d.chunk.js.map",
     "index.html": "/bahenfreelabs/index.html",
-    "precache-manifest.b754529b525728af05dcef672284cbee.js": "/bahenfreelabs/precache-manifest.b754529b525728af05dcef672284cbee.js",
+    "precache-manifest.84f7fb9985b1e93cad0a3c6b1c4c2e8c.js": "/bahenfreelabs/precache-manifest.84f7fb9985b1e93cad0a3c6b1c4c2e8c.js",
     "service-worker.js": "/bahenfreelabs/service-worker.js",
     "static/css/main.21c3a481.chunk.css.map": "/bahenfreelabs/static/css/main.21c3a481.chunk.css.map",
     "static/js/2.b4de895d.chunk.js.LICENSE.txt": "/bahenfreelabs/static/js/2.b4de895d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5a65570a.js",
     "static/js/2.b4de895d.chunk.js",
     "static/css/main.21c3a481.chunk.css",
-    "static/js/main.22c2630b.chunk.js"
+    "static/js/main.de52980f.chunk.js"
   ]
 }

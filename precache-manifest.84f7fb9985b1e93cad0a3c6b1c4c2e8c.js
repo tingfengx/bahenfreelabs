@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "911f54e1a88620efe2c4542ef6e5e0f7",
+    "revision": "009bfa577b80e41a5df08c055098fbfa",
     "url": "/bahenfreelabs/index.html"
   },
   {
-    "revision": "90865f35d859d86173c3",
+    "revision": "d6430f31aef1a015b41c",
     "url": "/bahenfreelabs/static/css/main.21c3a481.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bahenfreelabs/static/js/2.b4de895d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "90865f35d859d86173c3",
-    "url": "/bahenfreelabs/static/js/main.22c2630b.chunk.js"
+    "revision": "d6430f31aef1a015b41c",
+    "url": "/bahenfreelabs/static/js/main.de52980f.chunk.js"
   },
   {
     "revision": "a6da844f1c449d484c6d",
