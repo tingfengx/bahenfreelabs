@@ -2,6 +2,8 @@
 Simple web app that shows lab availibility info at Bahen Centre of Information in the University of Toronto.
 #### check it out at [https://tingfengx.github.io/bahenfreelabs](https://tingfengx.github.io/bahenfreelabs)
 
+## Help Wanted! 
+Please help update the timetables when Bahen reopens! The availability data is stored using simple json file [here](https://github.com/tingfengx/bahenfreelabs/blob/master/src/Data/data.json). 
 
 
 
@@ -9,9 +11,6 @@ Simple web app that shows lab availibility info at Bahen Centre of Information i
 <br/>
 <br/>
 <br/>
-
-
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
